@@ -48,7 +48,11 @@ object camion
 	
 	method tenesLaCarga(carga)
 	{
-		return cargaActual.contains(carga)
+		return cargaActual.any
+		(
+			cargas => cargas.contains(carga)
+		)
+		
 	}
 	
 	method calcularCarga()
