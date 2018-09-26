@@ -59,6 +59,11 @@ import transportes.*
 import deposito.*
 import cargas.*
 
+// TODO acá no estas testeando nada
+// igual debería haber tests mas chiquitas (mas unitarios)
+// para testear por separado las diferentes funcionalidades del código 
+
+
 test "Tests cargar el camion"
 {
 	paqueteDeLadrillos.cantidad(10)

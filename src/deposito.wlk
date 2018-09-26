@@ -21,6 +21,7 @@ object deposito
 		almacen.forEach 
 		{
 			cargaAlmacen => transporte.cargar(cargaAlmacen)
+			// TODO acá faltaría sacar la carga del almacen
 		}
 	}
 	//!Atención: asegurarse de que la carga máxima también se verifica cuando el depósito recibe un camión
